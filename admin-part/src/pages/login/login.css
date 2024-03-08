@@ -1,0 +1,128 @@
+.Container {
+    flex: 4;
+    cursor: default;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 92vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ),
+        url("https://i.ibb.co/wwQMWMF/admin-pic.jpg");
+        /* url("https://i.ibb.co/VCH7qKW/login-bg1.jpg") center; */
+    background-size: cover;
+
+}
+
+.Wrapper {
+    padding: 40px 60px;
+
+    background-color: white;
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #222024;
+}
+
+.Title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    color: #222024;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 15px;
+
+    color: #222024;
+}
+
+.Input {
+    width: 100%;
+    min-width: 40%;
+    
+    outline: none;
+
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.Button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px;
+
+    border: none;
+    outline: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    
+    box-shadow: 2.5px 2.5px 5px 1px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.4s ease;
+}
+
+.Button:hover {
+    opacity: 0.9;
+}
+
+.Button:active {
+    transform: translateY(2px);
+    transition-duration: 0s;
+}
+
+.Link {
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 3px 0px;
+    cursor: pointer;
+
+    color: #222024;
+
+    transition: all 0.3s ease;
+}
+
+.Link:hover {
+    color: black;
+}
+
+.Link:active {
+    transform: translateY(1px);
+    transition-duration: 0s;
+}
+
+.Error {
+    margin: 3px 0px;
+    font-size: 15px;
+    color: red;
+}
+
+.Success {
+    margin: 3px 0px;
+    font-size: 15px;
+    color: green;
+}
+
+.Loading {
+    margin: 3px 0px;
+    font-size: 15px;
+    color: yellow;
+}

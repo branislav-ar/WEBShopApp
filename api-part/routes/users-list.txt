@@ -1,0 +1,51 @@
+FOR LOGIN
+
+REGULAR USERS (7/9):
+
+{
+    "username": "marko002",
+    "password": "123456"
+    new updated pass: "654321"
+}
+
+{
+    "username": "ana85",
+    "password": "ana123"
+}
+
+{
+    "username": "stefan56",
+    "password": "stef231"
+}
+
+{
+    "username": "toni8",
+    "password": "toniShoping80"
+}
+
+{
+    "username": "marijanM21",
+    "password": "mar86?1"
+}
+
+{
+    "username": "dimii@dimii",
+    "password": "dimi_king819",
+}
+
+{
+    "username": "j0k@",
+    "password": "joka@joka982",
+}
+
+ADMIN USERS (2/9):
+
+{
+    "username": "admin01",
+    "password": "admin729910"
+}
+
+{
+    "username": "admin02",
+    "password": "admin729911"
+}

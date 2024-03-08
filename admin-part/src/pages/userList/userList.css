@@ -1,0 +1,80 @@
+.userList {
+    flex: 4;
+    height: 78vh;
+  }
+  
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListUser > span {
+      margin-left: 13px;
+  }
+  
+  .userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .UserListButton-create {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+      width: 150px;
+      border: none;
+      padding: 5px;
+      background-color: teal;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+  
+      margin: 0px 25px;
+  }
+  
+  .UserListButton-create:hover {
+      opacity: 0.9;
+  }
+  
+  .UserListButton-edit {
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .UserListButton-edit:hover {
+      opacity: 0.9;
+  }
+  
+  .userListDelete{
+      color: rgb(200, 0, 0);
+      cursor: pointer;
+  }
+  
+  .userListDelete:hover {
+      color: red;
+  }
+  
+  /* .userListEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  } */
+  
+  /* .userListDelete{
+      color: red;
+      cursor: pointer;
+  } */

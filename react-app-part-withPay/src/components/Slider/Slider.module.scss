@@ -1,0 +1,116 @@
+/* 
+
+WHILE-IN-PROGRESS NOTES!
+
+Stilovi implementirani kroz styled-component jer se tako omogućava
+lakše upravljanje akcijama na samoj strani.
+
+*/
+
+.conteiner {
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+/*  background-color: greenyellow; */
+
+    position: relative;
+
+    & .arrowLeft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 50px;
+        height: 50px;
+        
+        background-color: #fff7fa;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        cursor: pointer;
+        opacity: 0.5;
+        z-index: 2;
+
+        left: 10px;
+    }
+
+    & .wrapper {
+        display: flex;
+    /*  transform: translateX(${props => props.slideIndex * -100}vw); */
+        height: 100%;
+
+        & .slide {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background-color: #f5fafd;
+            /* #fcfled #fbf0f4 */
+
+            & .ImgContainer {
+                height: 100%;
+                flex: 1;
+
+                & img {
+                    height: 80%;
+                }
+            }
+    
+            & .InfoContainer {
+                flex: 1;
+
+                padding: 50px;
+
+                & h1 {
+                    font-size: 70px;
+                }
+
+                & p {
+                    margin: 50px 0px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: 3px;
+                }
+
+                & button {
+                    padding: 10px;
+                    font-size: 20px;
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    & 
+    .arrowRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 50px;
+        height: 50px;
+        
+        background-color: #fff7fa;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        cursor: pointer;
+        opacity: 0.5;
+        z-index: 2;
+
+        right: 10px;
+    }
+}

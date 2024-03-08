@@ -1,0 +1,125 @@
+.newProduct {
+    flex: 4;
+}
+  
+.newProductTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.newProductTitleContainer > h1 {
+    margin-left: 25px;
+}
+  
+.newProductButton-back {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  
+    margin: 0px 25px;
+}
+  
+.newProductButton-back:hover {
+    opacity: 0.9;
+}
+  
+.newProductButton-create {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    width: 120px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    margin: 0px 25px;
+}
+  
+.newProductButton-create:hover {
+    opacity: 0.9;
+}
+  
+.newProductButton:hover {
+    opacity: 0.9;
+}
+  
+.productBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+  
+.addProductForm {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 25px;
+}
+  
+.addProductItemContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+.addProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+  
+.napomena-span {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  
+    color: rgb(223, 2, 2);
+    font-size: 13px;
+    padding-bottom: 5px;
+    margin: 0px 25px;
+}
+
+/* --------- */
+   
+.productTop {
+    display: flex;
+}
+  
+.productTopLeft,
+.productTopRight {
+    flex: 1;
+}
+  
+.addProductItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+.addProductItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+  
+.addProductItem > select {
+    padding: 10px;
+}
