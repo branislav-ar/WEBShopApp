@@ -1,2 +1,2 @@
 # WEBShopApp
-_WEBShopApp_ je WEB aplikacija koja animira rad prodavnice odeće. Sastoji se od režima za administratore i kupce sa _front-end_ i _back-end_ delom. Korišćen je _JavaScript_ kroz _React_ i _Node.js_ tehnologije, a za bazu podataka korišćen je _MongoDB_. Rađena je kao projekat iz predmeta _Napredne baze podataka_ (VII semestar).
+WEBShopApp is a web application that simulates the operation of a clothing store. It features modes for administrators and customers, with both front-end and back-end components. _JavaScript_ is used with _React_ and _Node.js_, while _MongoDB_ serves as the database. This project was created for the Advanced Databases Course (seventh semester).
